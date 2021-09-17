@@ -1,72 +1,69 @@
-import { StyleSheet } from "react-native";
-import { theme } from "../../global/styles/theme";
+import { StyleSheet } from 'react-native';
+import { theme } from '../../global/styles/theme';
 
 export const styles = StyleSheet.create({
-  container:{
-    flex:1,
-    justifyContent:'center',
+  container: {
+    flex: 1,
+    justifyContent: 'center',
   },
-  label:{
-    fontSize:18,
-    fontFamily:theme.fonts.title700,
-    color:theme.colors.heading,
+  label: {
+    fontSize: 18,
+    fontFamily: theme.fonts.title700,
+    color: theme.colors.heading,
   },
-  form:{ 
-    paddingHorizontal:24,
-    marginTop:32
-
+  form: {
+    paddingHorizontal: 24,
+    marginTop: 32,
   },
-  select:{
-    flexDirection:'row',
-    width:'100%',
-    height:68,
+  select: {
+    flexDirection: 'row',
+    width: '100%',
+    height: 68,
     borderColor: theme.colors.secondary50,
     borderWidth: 1,
-    borderRadius:8,
-    alignItems:'center',
-    paddingRight:24,
+    borderRadius: 8,
+    alignItems: 'center',
+    paddingRight: 24,
     overflow: 'hidden',
   },
-  image:{
-    width:64,
-    height:68,
-    backgroundColor:theme.colors.secondary40,
+  image: {
+    width: 64,
+    height: 68,
+    backgroundColor: theme.colors.secondary40,
     borderWidth: 1,
     borderRadius: 8,
-    borderColor:theme.colors.secondary50,
+    borderColor: theme.colors.secondary50,
   },
-  selectBody:{
-    flex:1,
-    alignItems:'center',
+  selectBody: {
+    flex: 1,
+    alignItems: 'center',
   },
-  field:{
-     width:'100%',
-     flexDirection:'row',
-     justifyContent:'space-between',
-     marginTop:30,
-
+  field: {
+    width: '100%',
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    marginTop: 30,
   },
-  wapper:{
-    alignItems:'center',
+  wapper: {
+    alignItems: 'center',
   },
-  column:{
-    flexDirection:'row',
-    alignItems:'center'
+  column: {
+    flexDirection: 'row',
+    alignItems: 'center',
   },
-  divider:{
-    marginRight:4,
-    fontSize:15,
-    fontFamily:theme.fonts.text400,
-    color:theme.colors.highlight,
-  },
-  caracteresLimit:{
+  divider: {
+    marginRight: 4,
+    fontSize: 15,
     fontFamily: theme.fonts.text400,
-    fontSize:13,
-    color:theme.colors.highlight
+    color: theme.colors.highlight,
   },
-  footer:{
-    marginVertical:20,
-    marginBottom:56,
-    
-  }
-})
+  caracteresLimit: {
+    fontFamily: theme.fonts.text400,
+    fontSize: 13,
+    color: theme.colors.highlight,
+  },
+  footer: {
+    marginVertical: 20,
+    marginBottom: 56,
+  },
+});
